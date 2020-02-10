@@ -1,0 +1,31 @@
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Welcome | Versa IMS</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <div class="section_one">
+
+    <h1>Delete a record</h1>
+
+    <form action="/delete/<%= model.book_id %>" method="post">
+      <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+        <%- include("display") -%>
+
+        <div class="mt3">
+          <label class="db fw4 lh-copy f6" for="email-address"></label>
+          <input class="pa2 input-reset ba bg-transparent w-100 measure" type="submit" value="Delete">
+          <a class="button_two" href="/book">Cancel</a>
+        </div>
+      </fieldset>
+    </form>
+  </div>>
+    
+</body>
+
+</html>

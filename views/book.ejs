@@ -1,0 +1,46 @@
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>AppTestPG</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <div class="">
+
+    <div class="section_one">
+
+      <h1>List of books</h1>
+        <div class="table_container">
+          <table class="table_content" cellspacing="0">
+            <thead>
+              <tr class="table_line">
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th><a class="button_one" href="/create">Add</a></th>
+              </tr>
+            </thead>
+            <tbody>
+              <% for (const book of model) { %>
+                <tr class="table_line">
+                  <td><%= book.title %></td>
+                  <td><%= book.author %></td>
+                  <td><%= book.comments %></td>
+                  <td>
+                    <a class="button_two" href="/edit/<%= book.book_id %>">Edit</a>
+                    <a class="button_three" href="/delete/<%= book.book_id %>">Delete</a>
+                  </td>
+                </tr>
+              <% } %>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    
+</body>
+
+</html>

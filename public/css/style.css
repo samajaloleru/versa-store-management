@@ -1,0 +1,630 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Quicksand&display=swap');
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    display: block;
+    margin: 0 !important;
+}
+
+ul li
+  
+.navbar {
+    background-color: transparent;
+    display: table;
+    width: 100%;
+}
+
+.navbar_brand {
+    display: table-cell;
+    padding: 1rem;
+    vertical-align: middle;
+    width: 25%;
+}
+
+.logo {
+    display: inline-block;
+    height: 3rem;
+}
+
+.navbar_item {
+    display: table-cell;
+    padding: 1rem;
+    text-align: right;
+    vertical-align: middle;
+    width: 75%;
+}
+
+.navbar_item a {
+    color: #5e6dc3;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    text-align: right;
+}
+
+.navbar_item .button {
+    border-color: #5e6dc3;
+    border-radius: 9999px;
+    border-style: solid;
+    border-width: 2px;
+    color: #5e6dc3;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+}
+
+.navbar_item .button_one {
+    background-color: #5e6dc3;
+    border-radius: 9999px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    text-decoration: none;
+}
+
+.button_one {
+    background-color: green;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+.button_two {
+    background-color: yellow;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 10px;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+.button_three {
+    background-color: red;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+.section_one {
+    display: block;
+    margin: 20px 4%;
+    text-decoration: none;
+
+}
+
+.section_one_flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section_one_start {
+    margin-bottom: 2rem;
+    padding-top: 5em;
+    width: 100%;
+}
+
+.section_one_start h1{
+    color: #5e6dc3;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.25;
+    margin-top: 0;
+    max-width: 44rem;
+}
+
+.section_one_start h1 span{
+    color: #707070;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.25;
+    margin-top: 0;
+}
+
+.section_one_start p{
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.section_one_end {
+    width: 100%;
+}
+
+.section_one_end img{
+    display: block;
+    height: 600px;
+    width: 100%;
+}
+
+.section_two {
+    display: block;
+    border-top: 2px;
+    border-bottom: 0px;
+    border-right: 2px;
+    border-left: 2px;
+    border-color: #96ccff;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-style: solid;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 130rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.section_two h1{
+    color: #5e6dc3;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.section_two p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.25;
+    max-width: 54em;
+    margin: auto;
+}
+
+.section_two_cardholder {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.section_two_card {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2rem;
+    text-align: center;
+    width: 20rem;
+}
+
+.section_two_card h1{
+    color: #5e6dc3;
+    font-size: 20px;
+    margin-top: 0;
+}
+.section_two_card p{
+    font-size: 15px;
+    line-height: 2;
+    max-width: 20em;
+    word-spacing: 5px;
+}
+
+.section_two_card img{
+    display: inline-block;
+    height: 8rem;
+    width: 8rem;
+    padding: 1rem;
+}
+
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.b--black {
+    border-color: #000;
+}
+
+.b--transparent {
+    border-color: transparent;
+}
+
+.db {
+    display: block;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.fw4 {
+    font-weight: 400;
+}
+
+.fw6 {
+    font-weight: 600;
+}
+
+.input-reset {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+}
+
+.input-reset::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.lh-copy {
+    line-height: 1.5;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.black-80 {
+    color: rgba(0, 0, 0, .8);
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.pa2 {
+    padding: .5rem;
+}
+
+.pa4 {
+    padding: 2rem;
+}
+
+.pv2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.ph0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mt3 {
+    margin-top: 1rem;
+}
+
+.mh0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.measure {
+    max-width: 30em;
+}
+
+.clip {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform .25s ease-out;
+}
+
+.grow:hover, .grow:focus {
+    transform: scale(1.05);
+}
+
+.grow:active {
+    transform: scale(.9);
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+
+.table_container {
+    padding: 2rem;
+    overflow: auto;
+}
+
+.table_content {
+    font-size: .875rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 64rem;
+    width: 100%;
+
+}
+
+.table_content tbody {
+    line-height: 1.5;
+}
+
+.table_line {
+    font-size: .875rem;
+}
+
+.table_line th{
+    background-color: white;
+    font-weight: 600;
+    text-align: left;
+    padding: 1.75rem;
+}
+
+.table_line td{
+    padding: 1.75rem;
+}
+
+.table_line:nth-child(odd){
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.footer {
+    background-color: #5e6dc3;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+}
+
+.footer h1{
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.footer p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.25;
+    margin: auto;
+}
+
+.footer_container {
+    margin: auto;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.footer_cardholder {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+.footer_card {
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    width: 300px;
+}
+
+.footer_card h1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 0;
+    text-align: left;
+}
+
+.footer_card a{
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.footer_card div{
+    display: table-cell;
+    justify-content: left;
+}
+
+.footer_card p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    text-align: left;
+}
+
+.footer_card img{
+    background-color: #fff;
+    height: 10rem;
+    display: block;
+}
+
+.footer_flex {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer_start {
+    color: #fff;
+    width: 50%;
+    padding-right: 1rem;
+}
+
+.footer_start a {
+    color: #fff;
+}
+
+.footer_end {
+    text-align: right;
+    width: 50%;
+    padding-left: 1rem;
+}
+.footer_end p{
+    color: #fff;
+    font-size: 15px;
+    padding-left: 1rem;
+}
+
+.animatedElement {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: initial;
+  }
+
+
+
+@media screen and (min-width: 30em) {
+    .navbar {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .navbar_item a {
+        margin-right: 2rem;
+    }
+
+    .section_one_flex {
+        flex-direction: row;
+    }
+
+    .section_one_start {
+        width: 30%;
+        margin-bottom: 0;
+        padding-right: 1rem;
+        padding-left: 30px;
+    }
+
+    .section_one_start h1{
+        font-size: 4rem;
+        line-height: 1.25;
+    }
+
+    .section_one_start h1 span{
+        font-size: 4rem;
+    }
+
+    .section_one_end {
+        width: 70%;
+        padding-left: 1rem;
+    }
+
+    .section_two {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .section_two_cardholder {
+        flex-direction: row;
+    }
+
+    .section_two_card {
+        width: 50rem;
+    }
+
+    .section_three_flex {
+        flex-direction: row;
+    }
+
+    .section_three_start {
+        width: 50%;
+        margin-bottom: 0;
+        padding-right: 1rem;
+        padding-left: 10em;
+    }
+
+    .section_three_end {
+        width: 50%;
+        padding-left: 1rem;
+    }
+
+    .section_three_end img{
+        width: 80%;
+    }
+
+    .section_four {
+        max-width: 130rem;
+    }
+
+    .section_four_cardholder {
+        flex-direction: row;
+    }
+
+    .section_four_card {
+        margin-top: 1rem;
+        width: 50rem;
+    }
+
+    .section_five_flex {
+        flex-direction: row;
+    }
+
+    .section_five_start {
+        width: 40%;
+        margin-bottom: 0;
+        padding-right: 1rem;
+    }
+
+    .section_five_end {
+        width: 60%;
+        padding-left: 1rem;
+    }
+
+    .footer_cardholder {
+        flex-direction: row;
+    }
+
+    .footer_container {
+        max-width: 110rem;
+    }
+}
+
